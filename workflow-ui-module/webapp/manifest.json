@@ -94,6 +94,11 @@
             },
             "routes": [
                 {
+                    "name": "Routeapp",
+                    "view": "App"
+                    
+                },
+                {
                     "name": "RouteorderApprovalForm",
                     "pattern": ":?query:",
                     "target": [
@@ -104,11 +109,12 @@
             "targets": {
                 "TargetorderApprovalForm": {
                     "viewType": "XML",
-                    "transition": "slide",
+                    "transition": "show",
                     "clearControlAggregation": false,
                     "viewId": "orderApprovalForm",
                     "viewName": "orderApprovalForm"
                 }
+                
             }
         },
         "rootView": {
